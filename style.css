@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.logo{
+    padding-top: 27px;
+    padding-left: 58px;
+    padding-bottom: 25px;
+}
+
+header{
+    background-color: #ffd900;
+    text-align: left;
+ 
+} 
+
+section{    
+    display: grid;
+    grid-auto-flow: column; 
+}
+
+#chamada{
+    background-color: #514988;
+    color: white; 
+    padding-top: 40px;
+    margin-bottom: 2rem;   
+}
+
+#chamada h1{
+    color: #F3C61F;
+    margin-bottom: 20px;
+    font-size: 40px;  
+}
+
+#chamada p{
+    padding-top: 50px;
+    font-size: 20px;
+    padding-left: 64px;
+    padding-right: 64px;
+    font-weight:50px;
+    margin-bottom: 60px;
+
+}
+
+#timer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2px;
+  padding-top: 30px;
+
+    
+}
+
+#contagem {
+    color: #514988;
+    display: grid;
+    grid-auto-flow: column;
+    font-size: 30px;
+}
+
+#contagem span{
+    font-size: 45px;
+    color: #514988;
+    font-weight: bold;
+    text-align: left;
+    padding-left: -100px;
+}
+
+#assunto{
+    color: #E33881;    
+    size:30px;
+    padding-left: 1rem;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#video{
+    padding-right: 30px;
+    padding-left: 10PX;
+    height:100%;
+    
+}
+
+#chamada2{
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-size:20px;    
+    color: #F3C61F;   
+}
+
+
+#compre button{
+    
+    background-color: #514988;    
+    color: white;
+    border: 0px;
+    height: 130px;
+    border-radius: 20px;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 50px;
+    width: 480px;
+
+}
+#compre button:hover{   
+    cursor: pointer;
+    color: #F3C61F;
+}
